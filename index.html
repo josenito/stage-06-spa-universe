@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universe</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./src/js/index.js" defer type="module"></script>
+</head>
+
+<body class="imgHome">
+  <main>
+    <nav class="header">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Imagem de um circulo">
+      </div>
+
+      <div class="menu">
+        <a href="/" onclick="route()" class="menuHome selected">
+          Home
+        </a>
+
+        <a href="/universe" onclick="route()" class="menuUniverse">
+          O Universo
+        </a>
+
+        <a href="/exploration" onclick="route()" class="menuExploration">
+          Exploração
+        </a>
+      </div>
+    </nav>
+
+    <div id="app"></div>
+  </main>
+
+</body>
+
+</html>
